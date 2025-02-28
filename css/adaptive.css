@@ -347,7 +347,8 @@
         left: -41%;
     }
     .dresscode-wed {
-        left: -61%;
+        /*left: -61%;*/
+        transform: translateY(17%);
     }
     .dresscode-info {
         text-align: center;
