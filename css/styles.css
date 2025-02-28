@@ -546,18 +546,18 @@ body {
 .parallax-container {
 
     position: relative;
-    height: 100vh;
+    height: 100dvh;
     overflow: hidden;
 
 }
 
 .parallax-bg {
     position: absolute;
-    top: -50vh;
+    top: -50dvh;
     bottom: 0;
     left: 0;
     width: 100%;
-    min-height: 130vh; /* Чуть больше, чтобы был запас */
+    min-height: 130dvh; /* Чуть больше, чтобы был запас */
     background: url('../images/foto.jpg') right/contain no-repeat;
     will-change: transform;
 }
