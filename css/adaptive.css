@@ -347,7 +347,8 @@
         left: -41%;
     }
     .dresscode-wed {
-        transform: translateY(17%);
+
+        left: -204px;
     }
     .dresscode-info {
         text-align: center;
@@ -358,8 +359,7 @@
     }
 
     .wishes-wed {
-        /*left: -45%;*/
-        left: -204px;
+        left: -45%;
     }
     .organizer-wed {
         left: -59%;
