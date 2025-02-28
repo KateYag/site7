@@ -558,6 +558,6 @@ body {
     left: 0;
     width: 100%;
     min-height: 130dvh; /* Чуть больше, чтобы был запас */
-    background: url('../images/foto.jpg') right/100% 80% no-repeat;
+    background: url('../images/foto.jpg') right/cover no-repeat;
     will-change: transform;
 }
