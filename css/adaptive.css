@@ -358,7 +358,8 @@
     }
 
     .wishes-wed {
-        left: -45%;
+        /*left: -45%;*/
+        left: -204px;
     }
     .organizer-wed {
         left: -59%;
