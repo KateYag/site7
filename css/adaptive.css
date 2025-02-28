@@ -378,7 +378,7 @@
 }
 @media (max-width: 430px) {
     .container {
-        max-width: 290px;
+        width: 290px;
     }
     .wishes-text, .organizer-text {
         text-align: center;
@@ -420,7 +420,7 @@
 @media (max-width: 389px) {
 
     .container {
-        max-width: 250px;
+        width: 250px;
     }
     .timout-title {
         font-size: 32px;
