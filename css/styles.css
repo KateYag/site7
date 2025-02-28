@@ -554,10 +554,10 @@ body {
 .parallax-bg {
     position: absolute;
     top: -50dvh;
-    bottom: 0;
+    bottom: 0dvh;
     left: 0;
     width: 100%;
-    min-height: 130dvh; /* Чуть больше, чтобы был запас */
+    min-height: 100dvh; /* Чуть больше, чтобы был запас */
     background: url('../images/foto.jpg') right/cover no-repeat;
     will-change: transform;
 }
