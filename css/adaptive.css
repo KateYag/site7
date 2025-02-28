@@ -347,7 +347,6 @@
         left: -41%;
     }
     .dresscode-wed {
-        /*left: -61%;*/
         transform: translateY(17%);
     }
     .dresscode-info {
@@ -377,7 +376,9 @@
     .dresscode-info {
         text-align: right;
     }
-
+    .wishes-text {
+        text-align: right;
+    }
 
 }
 @media (max-width: 430px) {
@@ -439,11 +440,12 @@
         left: -57%;
     }
     .dresscode-wed {
-        left: -69%;
+        left: -79%;
     }
 
     .dresscode-info-blocks {
         gap: 6px;
+        justify-content: right;
     }
     .dresscode-info-block {
         width: 50px;
