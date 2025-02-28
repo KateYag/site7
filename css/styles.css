@@ -509,4 +509,8 @@
     min-height: 300px;
     background: transparent;
 }
-
+@supports (-webkit-overflow-scrolling: touch) {
+    .parallax-window {
+        background-attachment: scroll !important;
+    }
+}

@@ -341,24 +341,30 @@
         left: -75%;
     }
     .location-wed {
-        left: -59%;
+        left: -56%;
     }
     .program-wed {
-        left: -45%;
+        left: -41%;
     }
     .dresscode-wed {
-        left: -65%;
-    }
-
-
-    .wishes-wed {
-        left: -47%;
-    }
-    .organizer-wed {
         left: -61%;
     }
+    .dresscode-info {
+        text-align: center;
+    }
+
+    .wishes-text, .organizer-text {
+        text-align: center;
+    }
+
+    .wishes-wed {
+        left: -43%;
+    }
+    .organizer-wed {
+        left: -59%;
+    }
     .presence-wed {
-        left: -54%;
+        left: -52%;
     }
 
 
@@ -402,7 +408,7 @@
         left: -50%;
     }
     .organizer-wed {
-        left: -66%;
+        left: -68%;
     }
     .presence-wed {
         left: -59%;
