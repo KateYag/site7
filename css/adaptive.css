@@ -501,15 +501,7 @@
     .location-title, .program-title, .dresscode-title, .wishes-title, .organizer-title, .presence-title {
         font-size: 44px;
     }
-    .dresscode-info {
-        text-align: left;
-    }
-    .dresscode-info-blocks {
-        justify-content: left;
-    }
-    .wishes-text, .organizer-text {
-        text-align: left;
-    }
+
 
 
 }

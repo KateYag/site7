@@ -7,6 +7,7 @@
 
 
 }
+
 body {
     -webkit-text-size-adjust: 100%;
 }
@@ -520,25 +521,43 @@ body {
 
 
 
-.parallax-window {
-    min-height: 300px;
-    background: transparent;
-    width: 100%;
-    overflow: hidden;
+/*.parallax-window {*/
+/*    min-height: 300px;*/
+/*    background: transparent;*/
+/*    width: 100%;*/
+/*    overflow: hidden;*/
+/*    position: relative;*/
+/*}*/
+
+/*.parallax-window::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 130%; !* Делаем выше блока *!*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-attachment: scroll; !* Убираем fixed *!*/
+/*    will-change: transform;*/
+/*}*/
+
+.parallax-container {
+
     position: relative;
+    height: 100vh;
+    overflow: hidden;
+
 }
 
-.parallax-window::before {
-    content: "";
+.parallax-bg {
     position: absolute;
-    top: 0;
+    top: -60vh;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 130%; /* Делаем выше блока */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll; /* Убираем fixed */
+    min-height: 130vh; /* Чуть больше, чтобы был запас */
+    background: url('../images/foto.jpg') right/cover no-repeat;
     will-change: transform;
 }
-

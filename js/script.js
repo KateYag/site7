@@ -96,15 +96,14 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-$(document).ready(function () {
-    $('.parallax-window').parallax({
-        iosFix: true, // Исправляет баги на iOS
-        androidFix: true, // Исправляет баги на Android
-        speed: 0.3, // Скорость параллакса (можно менять)
+document.addEventListener("DOMContentLoaded", function () {
+    const parallax = document.querySelector(".parallax-bg");
+
+    window.addEventListener("scroll", function () {
+        let scrollPosition = window.scrollY;
+        parallax.style.transform = `scale(1.1) translateY(${scrollPosition * 0.2}px)`;
     });
 });
-
-
 
 
 // document.addEventListener("DOMContentLoaded", function () {
