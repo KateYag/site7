@@ -274,11 +274,12 @@ body {
 
 
 .dresscode .container {
-    position: relative;
+    /*position: relative;*/
 
 }
 .dresscode {
     padding-bottom: 10px;
+    position: relative;
 }
 .wishes {
     padding-top: 90px;
@@ -286,8 +287,10 @@ body {
 }
 .dresscode-wed {
     position: absolute;
-    top: 40%;
-    left: -30%;
+    /*top: 40%;*/
+    /*left: -30%;*/
+    top: 52%;
+    left: 67px;
     rotate: 270deg;
     font-family: "Book Antiqua", sans-serif;
     text-transform: uppercase;

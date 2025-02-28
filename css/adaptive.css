@@ -14,7 +14,7 @@
         left: -26%;
     }
     .dresscode-wed {
-        left: -39%;
+        left: -202px;
     }
     .wishes-wed {
         left: -28%;
@@ -116,7 +116,7 @@
         left: -38%;
     }
     .dresscode-wed {
-        left: -52%;
+        left: -136px;
     }
     .wishes-wed {
         left: -40%;
@@ -137,7 +137,9 @@
     .container {
         max-width: 392px;
     }
-
+    .dresscode-wed {
+        left: -87px;
+    }
     .name {
         font-size: 220px;
     }
@@ -205,7 +207,7 @@
         left: -32%;
     }
     .dresscode-wed {
-        left: -44%;
+        left: -81px;
     }
     .wishes-wed {
         left: -33%;
@@ -277,7 +279,7 @@
         left: -46%;
     }
     .dresscode-wed {
-        left: -66%;
+        left: -120px;
     }
 
 
@@ -348,7 +350,7 @@
     }
     .dresscode-wed {
 
-        left: -204px;
+        left: -137px;
     }
     .dresscode-info {
         text-align: center;
@@ -371,9 +373,7 @@
 
 }
 @media (max-width: 447px) {
-    .dresscode .container {
-        position: relative;
-    }
+
     .container {
         max-width: 322px;
     }
@@ -386,9 +386,7 @@
 
 }
 @media (max-width: 430px) {
-    .dresscode .container {
-        position: relative;
-    }
+
     .container {
         width: 290px;
     }
@@ -410,7 +408,7 @@
         left: -47%;
     }
     .dresscode-wed {
-        left: -205px !important;
+        left: -130px;
     }
 
 
@@ -428,9 +426,7 @@
 
 }
 @media (max-width: 389px) {
-.dresscode .container {
-    position: relative;
-}
+
     .location-title, .program-title, .dresscode-title, .wishes-title, .organizer-title, .presence-title {
         font-size: 46px;
     }
@@ -451,7 +447,7 @@
         left: -57%;
     }
     .dresscode-wed {
-        left: -79%;
+        left: -138px;
     }
 
     .dresscode-info-blocks {
@@ -491,7 +487,7 @@
         font-size: 165px;
     }
     .dresscode-wed {
-        left: -85%;
+        
     }
     .wishes-wed {
         left: -62%;
