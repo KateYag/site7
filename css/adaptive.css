@@ -422,6 +422,9 @@
     .container {
         max-width: 250px;
     }
+    .timout-title {
+        font-size: 32px;
+    }
 
     .main-wed {
         left: -101%;
@@ -433,7 +436,7 @@
         left: -57%;
     }
     .dresscode-wed {
-        left: -85%;
+        left: -69%;
     }
 
     .dresscode-info-blocks {
