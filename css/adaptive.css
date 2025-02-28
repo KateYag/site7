@@ -370,6 +370,9 @@
 
 }
 @media (max-width: 447px) {
+    .dresscode .container {
+        position: relative;
+    }
     .container {
         max-width: 322px;
     }
@@ -382,6 +385,9 @@
 
 }
 @media (max-width: 430px) {
+    .dresscode .container {
+        position: relative;
+    }
     .container {
         width: 290px;
     }
@@ -422,7 +428,12 @@
 
 }
 @media (max-width: 389px) {
-
+.dresscode .container {
+    position: relative;
+}
+    .location-title, .program-title, .dresscode-title, .wishes-title, .organizer-title, .presence-title {
+        font-size: 46px;
+    }
     .container {
         width: 250px;
     }
