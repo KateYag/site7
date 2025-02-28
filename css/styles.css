@@ -508,9 +508,22 @@
 .parallax-window {
     min-height: 300px;
     background: transparent;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
-@supports (-webkit-overflow-scrolling: touch) {
-    .parallax-window {
-        background-attachment: scroll !important;
-    }
+
+.parallax-window::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130%; /* Делаем выше блока */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; /* Убираем fixed */
+    will-change: transform;
 }
+

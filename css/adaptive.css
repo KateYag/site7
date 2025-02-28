@@ -376,7 +376,7 @@
 
 
 }
-@media (max-width: 421px) {
+@media (max-width: 430px) {
     .container {
         max-width: 290px;
     }
@@ -433,7 +433,7 @@
         left: -57%;
     }
     .dresscode-wed {
-        left: -83%;
+        left: -85%;
     }
 
     .dresscode-info-blocks {
@@ -444,13 +444,13 @@
         height: 30px;
     }
     .wishes-wed {
-        left: -59%;
+        left: -62%;
     }
     .organizer-wed {
-        left: -80%;
+        left: -82%;
     }
     .presence-wed {
-        left: -71%;
+        left: -73%;
     }
 
 

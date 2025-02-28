@@ -96,3 +96,37 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const parallax = document.querySelector(".parallax-window");
+    const imageSrc = parallax.getAttribute("data-image-src");
+
+    // Добавляем фон через ::before
+    parallax.style.position = "relative";
+    parallax.style.overflow = "hidden";
+    parallax.style.background = "none";
+
+    const bg = document.createElement("div");
+    bg.style.position = "absolute";
+    bg.style.top = "0";
+    bg.style.left = "0";
+    bg.style.width = "100%";
+    bg.style.height = "130%"; // Чуть больше, чтобы плавно двигалось
+    bg.style.backgroundImage = ``;
+    bg.style.backgroundSize = "cover";
+    bg.style.backgroundPosition = "center";
+    bg.style.willChange = "transform";
+    parallax.appendChild(bg);
+
+    function updateParallax() {
+        let scrollTop = window.scrollY;
+        let parallaxSpeed = 0.3; // Чем меньше, тем медленнее
+
+        bg.style.transform = `translateY(${scrollTop * parallaxSpeed}px)`;
+    }
+
+    window.addEventListener("scroll", updateParallax);
+});
