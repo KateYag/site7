@@ -359,7 +359,7 @@
     }
 
     .wishes-wed {
-        left: -43%;
+        left: -45%;
     }
     .organizer-wed {
         left: -59%;
@@ -373,6 +373,9 @@
 @media (max-width: 447px) {
     .container {
         max-width: 322px;
+    }
+    .dresscode-info {
+        text-align: right;
     }
 
 
@@ -388,9 +391,7 @@
     .location-info {
         text-align: center;
     }
-    .dresscode-info {
-        text-align: center;
-    }
+
     .main-wed {
         left: -84%;
     }
@@ -402,7 +403,7 @@
     }
     .dresscode-wed {
         /*left: -70%;*/
-        transform: translateY(-41%);
+        transform: translateY(-20%);
     }
 
 
