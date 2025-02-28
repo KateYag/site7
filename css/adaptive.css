@@ -1,0 +1,494 @@
+@media (max-width: 1024px) {
+    .container {
+        max-width: 800px;
+
+    }
+    .main-wed {
+        left: -46%;
+    }
+    .location-wed {
+        left: -35%;
+    }
+
+    .program-wed {
+        left: -26%;
+    }
+    .dresscode-wed {
+        left: -39%;
+    }
+    .wishes-wed {
+        left: -28%;
+    }
+    .organizer-wed {
+        left: -38%;
+    }
+    .presence-wed {
+        left: -35%;
+    }
+
+    .parallax-window {
+        min-height: 600px;
+        background: transparent;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+    .main-info {
+        font-size: 40px;
+    }
+    .main-info .date {
+        margin-bottom: 20px;
+    }
+    .location-title, .program-title, .dresscode-title, .wishes-title, .organizer-title, .presence-title {
+        font-size: 60px;
+    }
+    .dear, .location-title, .program-title, .dresscode-title, .wishes-title, .organizer-title, .presence-title {
+        margin-bottom: 20px;
+    }
+    .main {
+        padding: 50px 0 50px 0;
+    }
+
+    .location, .program, .dresscode, .wishes, .presence {
+        padding: 50px 0 0px 0
+    }
+    .location-info {
+        font-size: 30px;
+    }
+    .location-address a {
+        font-size: 30px;
+    }
+
+    .event {
+        font-size: 28px;
+    }
+    .dresscode-info {
+        font-size: 30px;
+    }
+    .dresscode-info-block {
+        width: 80px;
+        height: 60px;
+    }
+    .dresscode {
+        padding-bottom: 10px;
+    }
+    .wishes-text {
+        font-size: 30px;
+    }
+    .wishes {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .organizer {
+        padding: 60px 0 63px 0;
+    }
+    .organizer-text, .organizer-name {
+        font-size: 30px;
+    }
+    .organizer a {
+        font-size: 26px;
+    }
+    .presence-text {
+        font-size: 30px;
+    }
+    .des {
+        font-size: 16px;
+    }
+    .timout-title {
+        font-size: 45px;
+    }
+    .wed {
+        font-size: 60px;
+    }
+    .main-wed {
+        top: 40%;
+        left: -60%;
+    }
+    .location-wed {
+        left: -48%;
+    }
+    .program-wed {
+        left: -38%;
+    }
+    .dresscode-wed {
+        left: -52%;
+    }
+    .wishes-wed {
+        left: -40%;
+    }
+    .organizer-wed {
+        left: -52%;
+    }
+    .presence-wed {
+        left: -48%;
+    }
+
+
+
+
+}
+
+@media (max-width: 625px) {
+    .container {
+        max-width: 392px;
+    }
+
+    .name {
+        font-size: 220px;
+    }
+    .main-info {
+        font-size: 30px;
+    }
+    .main-info .text-right .text-right-two {
+         font-size: 19px;
+         margin-top: -7px;
+     }
+    .event {
+        font-size: 20px;
+    }
+    .dresscode-info {
+        font-size: 20px;
+    }
+    .wishes-text {
+        font-size: 20px;
+    }
+    .organizer-text, .organizer-name {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .organizer a {
+        font-size: 20px;
+    }
+    .main .text, .organizer-text {
+        padding-bottom: 10px;
+    }
+    .presence-text {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .location .banquet, .presence .presence-text {
+        padding-bottom: 20px;
+    }
+    .no-fonts {
+        margin: 10px 0;
+    }
+    .wed {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 380px;
+    }
+
+    .location-title, .program-title, .dresscode-title, .wishes-title, .organizer-title, .presence-title {
+        font-size: 50px;
+    }
+    .timout-title {
+        font-size: 40px;
+    }
+    .main-wed {
+        left: -50%;
+    }
+    .location-wed {
+        left: -39%;
+    }
+    .program-wed {
+        left: -32%;
+    }
+    .dresscode-wed {
+        left: -44%;
+    }
+    .wishes-wed {
+        left: -33%;
+    }
+    .organizer-wed {
+        left: -43%;
+    }
+    .presence-wed {
+        left: -40%;
+    }
+
+
+}
+@media (max-width: 534px) {
+    /*.main-wed {*/
+    /*    left: -46%;*/
+    /*}*/
+    /*.location-wed {*/
+    /*    left: -35%;*/
+    /*}*/
+    /*.program-wed {*/
+    /*    left: -25%;*/
+    /*}*/
+    /*.dresscode-wed {*/
+    /*    left: -37%;*/
+    /*}*/
+
+
+    /*.wishes-wed {*/
+    /*    left: -26%;*/
+    /*}*/
+    /*.organizer-wed {*/
+    /*    left: -36%;*/
+    /*}*/
+    /*.presence-wed {*/
+    /*    left: -33%;*/
+    /*}*/
+    /*.dresscode-info-block {*/
+    /*    width: 60px;*/
+    /*    height: 50px;*/
+    /*}*/
+}
+@media (max-width: 534px) {
+    .dresscode-info-block {
+        width: 60px;
+        height: 50px;
+    }
+    .container {
+        max-width: 330px;
+    }
+    .main-info {
+        text-align: left;
+        max-width: 281px;
+        font-size: 30px;
+    }
+    .wed {
+        font-size: 57px;
+    }
+    .name {
+        font-size: 190px;
+    }
+    .main-wed {
+        left: -78%;
+    }
+    .location-wed {
+        left: -60%;
+    }
+    .program-wed {
+        left: -46%;
+    }
+    .dresscode-wed {
+        left: -66%;
+    }
+
+
+    .wishes-wed {
+        left: -49%;
+    }
+    .organizer-wed {
+        left: -64%;
+    }
+    .presence-wed {
+        left: -58%;
+    }
+
+    .location-info {
+        text-align: left;
+    }
+    .first {
+        flex-direction: column;
+        gap: 0;
+    }
+    .first svg {
+        width: 40px;
+        height: 40px;
+    }
+    .first .time {
+        font-weight: bold;
+        order: 2;
+    }
+    .event {
+        font-size: 19px;
+    }
+    .dresscode-info-block {
+        width: 60px;
+        height: 40px;
+    }
+    .dresscode-info {
+        text-align: left;
+    }
+    .wishes-text,.organizer-text {
+        text-align: left;
+    }
+    .wedding-form {
+        font-size: 20px;
+    }
+
+    .wedding-form {
+        button {
+            width: 104%;
+        }
+    }
+
+
+
+}
+
+@media (max-width: 460px) {
+    .name {
+        font-size: 190px;
+    }
+    .main-wed {
+        left: -75%;
+    }
+    .location-wed {
+        left: -59%;
+    }
+    .program-wed {
+        left: -45%;
+    }
+    .dresscode-wed {
+        left: -65%;
+    }
+
+
+    .wishes-wed {
+        left: -47%;
+    }
+    .organizer-wed {
+        left: -61%;
+    }
+    .presence-wed {
+        left: -54%;
+    }
+
+
+}
+@media (max-width: 447px) {
+    .container {
+        max-width: 322px;
+    }
+
+
+}
+@media (max-width: 421px) {
+    .container {
+        max-width: 290px;
+    }
+    .wishes-text, .organizer-text {
+        text-align: center;
+    }
+
+    .location-info {
+        text-align: center;
+    }
+    .dresscode-info {
+        text-align: center;
+    }
+    .main-wed {
+        left: -84%;
+    }
+    .location-wed {
+        left: -64%;
+    }
+    .program-wed {
+        left: -47%;
+    }
+    .dresscode-wed {
+        left: -70%;
+    }
+
+
+    .wishes-wed {
+        left: -50%;
+    }
+    .organizer-wed {
+        left: -66%;
+    }
+    .presence-wed {
+        left: -59%;
+    }
+
+
+
+}
+@media (max-width: 389px) {
+
+    .container {
+        max-width: 250px;
+    }
+
+    .main-wed {
+        left: -101%;
+    }
+    .location-wed {
+        left: -76%;
+    }
+    .program-wed {
+        left: -57%;
+    }
+    .dresscode-wed {
+        left: -83%;
+    }
+
+    .dresscode-info-blocks {
+        gap: 6px;
+    }
+    .dresscode-info-block {
+        width: 50px;
+        height: 30px;
+    }
+    .wishes-wed {
+        left: -59%;
+    }
+    .organizer-wed {
+        left: -80%;
+    }
+    .presence-wed {
+        left: -71%;
+    }
+
+
+}
+
+@media (max-width: 389px) {
+    .name {
+        font-size: 180px;
+    }
+
+
+
+}
+@media (max-width: 375px) {
+    .container {
+        max-width: 240px;
+    }
+    .name {
+        font-size: 165px;
+    }
+    .dresscode-wed {
+        left: -85%;
+    }
+    .wishes-wed {
+        left: -62%;
+    }
+    .organizer-wed {
+        left: -84%;
+    }
+    .event {
+        font-size: 16px;
+    }
+    .location-title, .program-title, .dresscode-title, .wishes-title, .organizer-title, .presence-title {
+        font-size: 44px;
+    }
+    .dresscode-info {
+        text-align: left;
+    }
+    .dresscode-info-blocks {
+        justify-content: left;
+    }
+    .wishes-text, .organizer-text {
+        text-align: left;
+    }
+
+
+}

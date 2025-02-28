@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /*font-family: "Cormorant Infant", sans-serif;*/
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    /*font-family: "Poiret One", sans-serif;*/
+
+
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.hid {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 3s ease-out;
+}
+
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.invite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.name, .invite-name {
+    opacity: 0;
+    transform: scale(0.8);
+    filter: blur(10px);
+    animation: fadeInScale 1s ease-out forwards;
+}
+
+/* Задержки для последовательного появления */
+.name {
+    animation-delay: 0.3s;
+}
+
+.invite-name.one {
+    animation-delay: 0.6s;
+}
+
+.invite-name.two {
+    animation-delay: 0.9s;
+}
+
+/* Анимация плавного появления с середины */
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+        filter: blur(10px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+        filter: blur(0);
+    }
+}
+
+
+
+
+.invite {
+    padding: 0 0 100px 0;
+    background-color: #f5f5f5;
+}
+.invite .container {
+
+}
+.name {
+    font-size: 350px;
+    font-family: "Book Antiqua", sans-serif;
+}
+.invite .text {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    width: max-content;
+}
+.invite-name {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: 30px;
+}
+
+.main {
+    padding: 100px 0 100px 0;
+    background-color: #595858;
+    color: white;
+
+}
+.organizer {
+    padding: 100px 0 100px 0;
+    background-color: #595858;
+    color: white;
+
+}
+.main .container, .location .container {
+    position: relative;
+}
+.wed {
+
+}
+.main-wed {
+    position: absolute;
+    top: 40%;
+    left: -35%;
+    rotate: 270deg;
+    font-family: "Book Antiqua", sans-serif;
+    text-transform: uppercase;
+    font-size: 85px;
+    color: black;
+}
+.main-info {
+
+    font-size: 60px;
+    text-align: center;
+}
+.main-info div {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+.dear, .location-title, .program-title, .dresscode-title, .wishes-title,
+.organizer-title, .presence-title {
+    margin-bottom: 30px;
+}
+ .location .banquet, .presence .presence-text {
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+    border-image-source: linear-gradient(to right, transparent, #000, transparent);
+    border-image-slice: 1;
+}
+.invite-name.one {
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    border-image-source: linear-gradient(to right, transparent, #000, transparent);
+    border-image-slice: 1;
+}
+.main .text, .organizer-text {
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+    border-image-source: linear-gradient(to right, transparent, #fff, transparent);
+    border-image-slice: 1;
+}
+.no-fonts {
+    margin: 30px 0;
+}
+.main-info .date {
+    font-family: "Book Antiqua", sans-serif;
+    font-weight: bold;
+}
+.text-right {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.main-info .text-right .text-right-one {
+    font-family: "Great Vibes", sans-serif;
+}
+.main-info .text-right .text-right-two {
+    font-family: "Book Antiqua", sans-serif;
+    font-size: 30px;
+    margin-top: -15px;
+    font-weight: bold;
+}
+
+.location, .program, .dresscode, .wishes, .presence {
+    padding: 100px 0 0px 0;
+    background-color: #f5f5f5;
+
+
+}
+.location-title, .program-title, .dresscode-title, .wishes-title, .organizer-title,
+.presence-title {
+    text-align: center;
+    font-family: "Great Vibes", sans-serif;
+    font-size: 85px;
+}
+.location-info {
+    text-align: center;
+    font-size: 60px;
+}
+.location .location-address {
+    margin-top: 30px;
+}
+
+.location-address a {
+    margin-top: 30px;
+    font-size: 40px;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.location-wed {
+      position: absolute;
+      top: 40%;
+      left: -27%;
+      rotate: 270deg;
+      font-family: "Book Antiqua", sans-serif;
+      text-transform: uppercase;
+      font-size: 85px;
+      color: white;
+  }
+.location-address a:hover {
+    color: #262626;
+
+}
+
+.program .container {
+    position: relative;
+
+}
+.program-wed {
+    position: absolute;
+    top: 40%;
+    left: -21%;
+    rotate: 270deg;
+    font-family: "Book Antiqua", sans-serif;
+    text-transform: uppercase;
+    font-size: 85px;
+    color: white;
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.event {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 85%;
+    font-size: 40px;
+    gap: 20px;
+
+}
+.first {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.first svg {
+    width: 60px;
+    height: 60px;
+}
+.first .time {
+    font-weight: bold;
+}
+
+
+.dresscode .container {
+    position: relative;
+
+}
+.dresscode {
+    padding-bottom: 10px;
+}
+.wishes {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.dresscode-wed {
+    position: absolute;
+    top: 40%;
+    left: -30%;
+    rotate: 270deg;
+    font-family: "Book Antiqua", sans-serif;
+    text-transform: uppercase;
+    font-size: 85px;
+    color: white;
+}
+.dresscode-info {
+    text-align: center;
+    font-size: 40px;
+}
+.dresscode-info-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.dresscode-info-block {
+    width: 150px;
+    height: 80px;
+}
+.dresscode-info-block.first {
+    background-color: #eec2cd;
+}
+
+.dresscode-info-block.second {
+    background-color: #f3e5bd;
+}
+.dresscode-info-block.third {
+    background-color: #cff1ea;
+}
+.dresscode-info-block.four{
+    background-color: #cfdaf1;
+}
+
+
+.wishes .container {
+    position: relative;
+
+}
+.wishes-wed {
+    position: absolute;
+    top: 40%;
+    left: -22%;
+    rotate: 270deg;
+    font-family: "Book Antiqua", sans-serif;
+    text-transform: uppercase;
+    font-size: 85px;
+    color: white;
+}
+
+.wishes-text {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.organizer .container {
+    position: relative;
+
+}
+.organizer-wed {
+    position: absolute;
+    top: 37%;
+    left: -30%;
+    rotate: 270deg;
+    font-family: "Book Antiqua", sans-serif;
+    text-transform: uppercase;
+    font-size: 85px;
+    color: black;
+}
+
+.organizer-text, .organizer-name {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.organizer-phone {
+    text-align: center;
+}
+.organizer a {
+    font-size: 30px;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.organizer a:hover {
+    color: #262626;
+
+}
+.presence {
+    padding-bottom: 50px;
+}
+.presence .container {
+    position: relative;
+
+}
+.presence-wed {
+    position: absolute;
+    top: 40%;
+    left: -27%;
+    rotate: 270deg;
+    font-family: "Book Antiqua", sans-serif;
+    text-transform: uppercase;
+    font-size: 85px;
+    color: white;
+}
+.presence-text {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.wedding-form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Cormorant Infant", sans-serif;
+
+    fieldset {
+        border: none;
+        margin-bottom: 15px;
+    }
+
+    legend {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    label {
+        display: block;
+        margin: 5px 0;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 97%;
+        padding: 8px;
+        border: 1px solid #969595;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    textarea {
+        min-height: 100px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #969595;
+        color: #969595;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+
+        &:hover {
+            background: black;
+            border: 1px solid black;
+        }
+    }
+}
+
+.timout {
+    background-color: #f5f5f5;
+}
+.timout-title {
+    font-size: 55px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+.time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.time-box span {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.time-box p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+
+
+.parallax-window {
+    min-height: 300px;
+    background: transparent;
+}
+
