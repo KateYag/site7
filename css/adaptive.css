@@ -400,7 +400,8 @@
         left: -47%;
     }
     .dresscode-wed {
-        left: -70%;
+        /*left: -70%;*/
+        transform: translateY(-41%);
     }
 
 

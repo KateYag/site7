@@ -412,6 +412,9 @@
     font-size: 40px;
     margin-bottom: 30px;
 }
+.wedding-form * {
+    box-sizing: border-box;
+}
 .wedding-form {
     max-width: 700px;
     margin: 0 auto;
@@ -420,11 +423,13 @@
     font-family: "Cormorant Infant", sans-serif;
 
     fieldset {
+        margin: 0 0 15px 0;
+        padding: 0;
         border: none;
-        margin-bottom: 15px;
     }
 
     legend {
+        display: block;
         font-weight: bold;
         margin-bottom: 5px;
     }
@@ -436,18 +441,27 @@
 
     input[type="text"],
     textarea {
-        width: 97%;
+        width: 100%;
         padding: 8px;
         border: 1px solid #969595;
         border-radius: 5px;
         font-size: 16px;
     }
-
+    input,
+    textarea {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
     textarea {
         min-height: 100px;
     }
 
     button {
+        -webkit-appearance: none; /* Убирает дефолтные стили в Safari */
+        -moz-appearance: none; /* Для Firefox */
+        appearance: none; /* Общий сброс */
+        background: transparent;
         width: 100%;
         padding: 10px;
         border: 1px solid #969595;
@@ -460,6 +474,9 @@
         &:hover {
             background: black;
             border: 1px solid black;
+        }
+        &:focus {
+            outline: none; /* Убирает синюю рамку при фокусе */
         }
     }
 }
